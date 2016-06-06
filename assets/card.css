@@ -1,41 +1,24 @@
-/** CSS Resets **/
-h1, h2, h3, h4, h5, p, a, button, ul, li {
-	margin: 0;
-	padding: 0;
-}
-/** ---- END Reset ----- */
-* {
-	box-sizing: border-box;
-}
-body {
-	font-family: "Open Sans", sans-serif;
-	background-color: #F5FFFA;
-}
-a {
-	text-decoration: none;
-}
 /** CARD */
-.container {
-	width: 25%;
-	margin: 0 auto;
+abbr {
+	border-bottom: 1px dotted #9e9e9e;
 }
 .card {
-	font-size: 16px;
+	width: 30%;
+	margin: 0 auto;
 	line-height: 1.6em;
-	width: 100%;
-	padding: 2.5em;
+	padding: 2em;
 	border: 1px solid #D3D3D3;
 	background-color: #fafafa;
 }
 .card-header {
-	background-color: #00b8d4;
+	background-color: #FF7043;
 	text-align: center;
 	padding: 0.5em;
 	border-radius: 3px;
 }
 .card-header img {
-	width: 100%;
-	height: 100%;
+	width: 60%;
+	height: 60%;
 	border: 3px solid #eeeeee;
 	border-radius: 50% 50%;
 }
@@ -54,7 +37,7 @@ a {
 	text-align: justify;
 }
 .card-body h2 {
-	color:#00b8d4;
+	color:#FF7043;
 	font-size: 1.375em;
 	margin-bottom: 0.625em;
 	text-align: center;
@@ -65,10 +48,4 @@ a {
 .card-footer {
 	padding-top: 0.75em;
 	border-top: 1px dotted #e0e0e0;
-}
-.card-footer a {
-	color: #DAA520;
-}
-.card-footer a:hover {
-	color: #BC8F8F;
 }
